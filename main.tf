@@ -46,5 +46,10 @@ output "owner" {
 
   value = local.owner
 
+
+}
+# Showing project status
+output "project_status" {
+  value = "Terraform code updated using Git"
 }
 
